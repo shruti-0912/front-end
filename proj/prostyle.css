@@ -1,0 +1,137 @@
+body{
+    background-image: url('hellokit2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#grade1{
+    ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0;
+        overflow: hidden;
+        background-color: palevioletred;
+        width: 100%;
+        top:10;
+        position: sticky;
+       
+    }   
+
+    li{
+        float:left;
+        
+    }
+
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+
+    li a:hover:not(.active){
+        background-color: deeppink;
+
+    }
+
+    .active{
+        background-color: pink;
+    }
+
+    opacity: 0.9;
+
+
+}
+
+
+
+footer{
+        background-color: palevioletred;
+        color: black;
+        text-align: center;
+        bottom: 0;
+        width: 98%;
+        padding: 1pc;
+        position: sticky;
+
+}
+
+
+
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1 1 50px rgba(226, 229, 47, 0.1);
+    opacity: 0.8;
+
+    h2{
+        background-color: hotpink;
+    }
+
+    
+}
+
+#contact{
+    
+    li{
+        list-style-type: none;
+    }
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+button:hover{
+    background-color: palevioletred;
+}
+
+header{
+    text-align: center;
+    background-color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: larger;
+    padding: 1em;
+    margin: auto;
+}

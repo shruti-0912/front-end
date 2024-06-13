@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.res-img{
+    width: 200px;
+    height: 200px;
+}
+#rot{
+    transform: rotate(20deg);
+}
+#grad1{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(blue,yellow);
+    /* for making faded background we use linear and conic gradient */
+    background-image: conic-gradient(red, yellow, orange);
+}
+#grad2{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(black,red);
+}
+/* header styling */
+header{
+    background-color: #333;
+    color:white;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+    color: red;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: #ffcc00;
+}
+/* main section styling */
+main{
+    background-color: #eee;
+    padding:50px;
+    text-align: center;
+}
+main h2{
+
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px #333;
+}
+.m1{
+    margin-bottom: 2px;
+    width: 100%;
+}
+/* menu selection types */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 50px;
+}
+.menu-item{
+    flex-basis: 30%; /* */
+}

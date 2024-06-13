@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>addition of number</title>
+        <script type="text/javascript">
+            function addnum(){
+                var n=parseInt(document.getElementById("num1").value);
+                
+                var c=n**2;
+                document.getElementById("result").innerHTML="result: "+ c;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Addition of numbers</h1>
+        <label for="num1" >Number1: </label>
+        <input type="number" value="value1" id="num1"/><br><br>
+       
+        <button onclick="addnum()">add</button>
+    <div id="result"></div>
+    </body>
+</html>

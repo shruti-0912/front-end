@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SGPA Calculator</h1>
+        <form id="sgpaForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+            
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" name="rollNumber" required>
+            
+            <label for="marksCSE3051">Marks for CSE3051:</label>
+            <input type="number" id="marksCSE3051" name="marksCSE3051" min="0" max="100" required>
+
+            <label for="marksCSE3052">Marks for CSE3052:</label>
+            <input type="number" id="marksCSE3052" name="marksCSE3052" min="0" max="100" required>
+
+            <label for="marksCSE3053">Marks for CSE3053:</label>
+            <input type="number" id="marksCSE3053" name="marksCSE3053" min="0" max="100" required>
+            
+            <!-- Add similar input fields for other courses -->
+            
+            <button type="button " id="calc">Calculate SGPA</button>
+        </form>
+        
+        <div id="sgpaResult" class="hidden">
+            <h2>SGPA:</h2>
+            <p id="sgpaValue"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
